@@ -11,7 +11,7 @@ var package = Package(
       targets: ["Sweet"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/zunda-pixel/http-client", branch: "main"),
+    .package(url: "https://github.com/hearther/HTTPClient", branch: "main"),
     .package(url: "https://github.com/apple/swift-format", branch: "main"),
     .package(url: "https://github.com/zunda-pixel/OAuth1", .upToNextMajor(from: "1.0.0"))
   ],
@@ -19,7 +19,7 @@ var package = Package(
     .target(
       name: "Sweet",
       dependencies: [
-        .product(name: "HTTPClient", package: "http-client"),
+        .product(name: "HTTPClient", package: "HTTPClient"),
         .product(name: "OAuth1", package: "OAuth1")
       ]),
     .testTarget(
