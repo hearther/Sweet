@@ -19,7 +19,7 @@ var package = Package(
     .target(
       name: "Sweet",
       dependencies: [
-        .product(name: "HTTPClient", package: "HTTPClient"),
+        .product(name: "HTTPClient", package: "http-client"),
         .product(name: "OAuth1", package: "OAuth1")
       ]),
     .testTarget(
