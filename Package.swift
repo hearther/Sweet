@@ -11,7 +11,7 @@ var package = Package(
       targets: ["Sweet"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/hearther/HTTPClient", branch: "main"),
+    .package(url: "https://github.com/hearther/HTTPClient", branch: "master"),
     .package(url: "https://github.com/apple/swift-format", branch: "main"),
     .package(url: "https://github.com/zunda-pixel/OAuth1", .upToNextMajor(from: "1.0.0"))
   ],
